@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/normalBackground"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:background="@drawable/setting_background"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/avactor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="@string/wechat_name"
+                android:textColor="@color/settingTextVolor"
+                android:textSize="@dimen/WechatNameSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/wechat_num" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/DividerView"
+        android:layout_weight="4">
+    </View>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="0dp"
+        android:layout_weight="18">
+
+        <LinearLayout
+            style="@style/ItemHorizontalLinearLayout"
+            android:layout_weight="9">
+
+            <ImageView
+                style="@style/ItemIvStyle"
+                android:src="@drawable/ic_album" />
+
+            <TextView
+                style="@style/ItemTextStyle"
+                android:text="@string/album_name" />
+        </LinearLayout>
+
+        <View
+            style="@style/settingDividerView"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+        <LinearLayout
+            style="@style/ItemHorizontalLinearLayout"
+            android:layout_weight="9">
+
+            <ImageView
+                style="@style/ItemIvStyle"
+                android:src="@drawable/ic_favorite" />
+
+            <TextView
+                style="@style/ItemTextStyle"
+                android:text="@string/collect_name" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/DividerView"
+        android:layout_weight="4">
+    </View>
+
+    <LinearLayout
+        style="@style/ItemVerticalLinearLayout"
+        android:layout_weight="18">
+
+        <LinearLayout
+            style="@style/ItemHorizontalLinearLayout"
+            android:layout_weight="9">
+
+            <ImageView
+                style="@style/ItemIvStyle"
+                android:src="@drawable/ic_wallet" />
+
+            <TextView
+                style="@style/ItemTextStyle"
+                android:text="@string/wallet_name" />
+        </LinearLayout>
+
+        <View
+            style="@style/settingDividerView"
+            android:layout_width="match_parent"
+            android:layout_height="2px"/>
+
+        <LinearLayout
+            style="@style/ItemHorizontalLinearLayout"
+            android:layout_weight="9">
+
+            <ImageView
+                style="@style/ItemIvStyle"
+                android:src="@drawable/ic_card_package" />
+
+            <TextView
+                style="@style/ItemTextStyle"
+                android:text="@string/card_package_name" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/DividerView"
+        android:layout_weight="4"/>
+
+    <LinearLayout
+        style="@style/ItemHorizontalLinearLayout"
+        android:layout_weight="10">
+
+        <ImageView
+            style="@style/ItemIvStyle"
+            android:src="@drawable/ic_emoji" />
+
+        <TextView
+            style="@style/ItemTextStyle"
+            android:text="@string/emoji_name" />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerView"
+        android:layout_weight="4">
+    </View>
+
+    <LinearLayout
+        style="@style/ItemHorizontalLinearLayout"
+        android:layout_weight="10">
+
+        <ImageView
+            style="@style/ItemIvStyle"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            style="@style/ItemTextStyle"
+            android:text="@string/setting_name" />
+    </LinearLayout>
+
+    <View
+        style="@style/DividerView"
+        android:layout_weight="10">
+    </View>
+
+</LinearLayout>
+

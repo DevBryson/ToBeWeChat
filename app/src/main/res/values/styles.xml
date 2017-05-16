@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 底部导航栏的线性布局的style -->
+    <style name="BottomBarLinearLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- 底部导航栏的ImageView的style -->
+    <style name="BottomBarImageView">
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- 底部导航栏的TextView的style -->
+    <style name="BottomBarTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- 我的页面和发现页面分隔线的View的style -->
+    <style name="settingDividerView">
+        <item name="android:background">@color/normalBackground</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 我的页面和发现页面的item后文字的style -->
+    <style name="ItemTextStyle">
+        <item name="android:textColor">@color/settingTextVolor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 我的页面和发现页面的item后ImageView的style -->
+    <style name="ItemIvStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 我的页面和发现页面的水平ItemLayout的style -->
+    <style name="ItemHorizontalLinearLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/setting_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- 我的页面和发现页面垂直ItemLayout的style -->
+    <style name="ItemVerticalLinearLayout">
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- 间隔的View的style -->
+    <style name="DividerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+</resources>

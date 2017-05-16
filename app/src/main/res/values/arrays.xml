@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="contactAvactorUrl">
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/32375338-file_1494657162915_68be.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/82081324-file_1494657432800_4852.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/21792966-file_1494657472763_876e.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/85883012-file_1494657513815_edba.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/76913056-file_1494657539108_17d5a.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/52156625-file_1494657551712_15e8b.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/32991372-file_1494657569658_14df7.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/1642045-file_1494657586169_65e4.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/37846048-file_1494657598390_16606.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/97503328-file_1494657611826_bb45.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/44961066-file_1494657623897_4025.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/59636845-file_1494657643300_1465d.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/82613601-file_1494657664911_bca4.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/26655727-file_1494657688882_aea4.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/30356348-file_1494657991353_e2eb.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/90241131-file_1494658027703_c582.jpg</item>
+        <item>http://opl5tlfw9.bkt.clouddn.com/17-5-13/32742173-file_1494658039632_f973.jpg</item>
+    </array>
+
+    <array name="aontactName">
+        <item>一方净土</item>
+        <item>孤身一人</item>
+        <item>别来无恙</item>
+        <item>优雅的叶子</item>
+        <item>草莓味的风</item>
+        <item>相思树下相思赋</item>
+        <item>聆听流星飞逝的炫彩</item>
+        <item>感染你的气息</item>
+        <item>繁花落尽 散一地浮华</item>
+        <item>花悄逝依雪纷飞</item>
+        <item>听风说他的故事</item>
+        <item>蝴蝶少女</item>
+        <item>久浪不归</item>
+        <item>十里荒凉胭脂泪</item>
+        <item>暗香初醒</item>
+        <item>青春不留白</item>
+        <item>&#036;我的留白</item>
+    </array>
+</resources>

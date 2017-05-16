@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbarHeight">50dp</dimen>
+    <dimen name="toolbarIvWidth">60dp</dimen>
+
+    <!-- 通讯录隐藏的字母提示框大小 -->
+    <dimen name="letterOverLaySize">80dp</dimen>
+    <dimen name="letterOverLayTextSize">45sp</dimen>
+
+    <!-- 侧边选择栏的宽度 -->
+    <dimen name="SideLetterBarWidth">23dp</dimen>
+    <!-- 侧边字母选择页面侧边栏字体大小 -->
+    <dimen name="SideLetterBarTextSize">13sp</dimen>
+
+    <dimen name="WechatNameSize">15sp</dimen>
+</resources>

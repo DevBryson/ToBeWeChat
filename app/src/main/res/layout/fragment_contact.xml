@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 通讯录列表 -->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/friend_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <!-- 侧边选择栏 -->
+        <cn.bisondev.tobewechat.widget.SideLetterBar
+            android:clickable="true"
+            android:id="@+id/side_letter_bar"
+            android:layout_width="@dimen/SideLetterBarWidth"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"/>
+
+        <!-- 隐藏的大字母提示框 -->
+        <TextView
+            android:id="@+id/tv_letter_overlay"
+            android:layout_width="@dimen/letterOverLaySize"
+            android:layout_height="@dimen/letterOverLaySize"
+            android:background="@drawable/overlay_bg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/letterOverLayTextSize"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </FrameLayout>
+</LinearLayout>

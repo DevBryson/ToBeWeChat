@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373a41</color>
+    <color name="colorPrimaryDark">#2d3134</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="black">#000000</color>
+    <color name="less_black">#606060</color>
+
+    <color name="divideColor">#ebebeb</color>
+    <color name="grayFontColor">#989898</color>
+    <color name="toolbarIvPressed">#282c2e</color>
+
+    <color name="bottombarPressed">#45C01A</color>
+    <color name="bottombarNormal">#999999</color>
+
+    <color name="normalBackground">#efefef</color>
+
+    <color name="settingSelector">#dedede</color>
+    <color name="settingTextVolor">#353535</color>
+
+    <!-- sideLetterBar的按下后的背景颜色 -->
+    <color name="side_letter_bar_background">#cfcfcf</color>
+</resources>
